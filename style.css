@@ -32,9 +32,9 @@
   *{box-sizing: border-box}
 
   .right{
-     position: fixed;
-  bottom: -20px;
-  right: -8px;
+     position: absolute;
+  bottom: 600px;
+  right: 100px;
   width: 300px;
   border: 0px  ;
   }
