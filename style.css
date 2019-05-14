@@ -1,0 +1,40 @@
+.intro1 {
+    position: static;
+    bottom: 300;
+    right: 0;
+    width: 1448px;
+    height: 65px;
+    border: 3px;
+    background-color: gray;
+    /*flex-direction: column;  */
+    color: red;
+  }
+  .body1 {
+      position: absolute;
+      width: 1448px;
+      height: 754px;
+      background-color: rgb(225, 255, 255, 0.1);
+    }
+  
+  .clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .footer1{
+    position: fixed;
+    bottom: 0;
+    width: 1448px;
+    height: 38px;
+    background-color: gray;
+  
+  }
+  *{box-sizing: border-box}
+
+  .right{
+     position: fixed;
+  bottom: -20px;
+  right: -8px;
+  width: 300px;
+  border: 0px  ;
+  }
