@@ -1,3 +1,8 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+
 .intro1 {
     position: relative;
     bottom: 300;
@@ -39,7 +44,7 @@
   border: 0px  ;
   }
   .centered{
-    position: float;
+   /* position: float;*/
    width: 1165;
     margin: auto;
   }
