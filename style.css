@@ -44,12 +44,13 @@ body {
   border: 0px  ;
   }
   .centered{
-   /* position: float;*/
-   width: 1165;
+    position: float;
+   width: 900;
     margin: auto;
+   /* display:flex;*/
   }
   .centered>img{
-    position: float;
-    width: 293px;
-    height: 355px; 
+    position: float
+   /* width: 293px;
+    height: 355px; */
   }
